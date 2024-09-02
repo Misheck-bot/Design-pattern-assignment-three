@@ -1,0 +1,6 @@
+{
+    "devices": [
+        {"type": "light", "name": "Living Room Light"},
+        {"type": "thermostat", "name": "Main Thermostat"}
+    ]
+}

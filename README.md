@@ -16,16 +16,16 @@ The following design patterns have been implemented in this system:
 ## Running the program
 To run this project, clone the repository and ensure you have Python installed. Create a `config.json` file in the root directory with the following content:
 
-```json
-{
+## ```json
+## {
     "devices": [
-        {"type": "light", "name": "Living Room Light"},
+        {"type": "light", "name": "Living Room Light"}, 
         {"type": "thermostat", "name": "Main Thermostat"}
     ]
 }
 
 
-Testing and Validation
+## Testing and Validation
 Unit Tests
 Unit tests have been created to validate the functionality of each design pattern. Below is an overview of the testing process for each pattern:
 

@@ -32,24 +32,42 @@ Unit tests have been created to validate the functionality of each design patter
 1. Singleton Pattern
 Test: Ensure only one instance of SmartHomeController exists.
 Expected: Two calls to create instances should return the same instance.
-Actual: The test confirmed that both instances are identical.
-2. Factory Pattern
+Actual: The test confirmed that both instances are identical
+
+
+3. Factory Pattern
+   
 Test: Create devices using DeviceFactory and check their types.
 Expected: The factory should return instances of the correct device type.
 Actual: The test confirmed that the created devices matched the specified types.
-3. Adapter Pattern
+
+4. Adapter Pattern
+
+   
 Test: Integrate a third-party device using the adapter.
 Expected: The adapter should successfully connect to the third-party device.
 Actual: The test confirmed that the connection was established as expected.
-4. Strategy Pattern
+
+
+5. Strategy Pattern
+
+
 Test: Set different automation strategies and execute them.
 Expected: The correct strategy should activate the expected behavior.
 Actual: The test confirmed that the correct strategy was executed.
-5. Observer Pattern
+
+
+6. Observer Pattern
+
+   
 Test: Notify users of security breaches.
 Expected: Users should receive notifications when a breach is detected.
 Actual: The test confirmed that notifications were sent correctly.
-6. Proxy Pattern
+
+
+7. Proxy Pattern
+
+    
 Test: Control access to the door lock.
 Expected: Only users with the 'admin' role should unlock the door.
 Actual: The test confirmed that access control worked as intended.
@@ -57,8 +75,11 @@ Testing Process
 Each pattern was tested using unit tests written in Python's unittest framework.
 Tests were executed in an isolated environment to ensure accuracy.
 Results were logged, and any failures were debugged to confirm expected behavior.
+
+
 Reflection and Alternatives
 Alternative Patterns
+
 While the selected patterns effectively addressed the requirements, alternative patterns could have included:
 
 Command Pattern for more complex command handling and queuing.
